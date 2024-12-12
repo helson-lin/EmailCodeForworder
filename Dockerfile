@@ -8,6 +8,7 @@ WORKDIR /app
 
 # 将当前目录内容复制到位于/app中的容器中
 COPY main.py /app/
+COPY requirements.txt /app/
 
 # 安装requirements.txt中指定的任何所需程序包
 # 安装依赖（如果有 requirements.txt）
