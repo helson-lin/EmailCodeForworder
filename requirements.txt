@@ -1,0 +1,5 @@
+PyYAML==6.0.2
+requests==2.32.3
+yarl==1.18.3
+pyzmail36==1.0.5
+IMAPClient==3.0.1
