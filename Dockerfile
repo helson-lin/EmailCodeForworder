@@ -12,7 +12,7 @@ COPY main.py /app/
 # 安装requirements.txt中指定的任何所需程序包
 # 安装依赖（如果有 requirements.txt）
 RUN pip install --upgrade pip
-RUN pip install --no-cache-dir -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install --no-cache-dir -r requirements.txt
 
 
 # 在容器启动时运行app.py
